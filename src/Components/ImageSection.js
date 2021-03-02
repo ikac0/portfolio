@@ -1,41 +1,33 @@
-import React from 'react';
-import about from '../img/about.jpg';
+import React from "react";
 
 function ImageSection() {
-    return (
-        <div className="ImageSection">
-            <div className="img">
-                <img src={about} alt=""/>
-            </div>
-            <div className="about-info">
-                <h4>I am<span> Lorem Ipsum</span></h4>
-                <p className="about-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Voluptatum necessitatibus perferendis numquam dolorem cumque facilis.
-                    Desir per po la ta doso vi slone ve?
-                </p>
-                <div className="about-details">
-                    <div className="left-section">
-                        <p>Full Name</p>
-                        <p>Age</p>
-                        <p>Nationality</p>
-                        <p>Languages</p>
-                        <p>Address</p>
-                        <p>Countries</p>
-                    </div>
-                    <div className="right-section">
-                        <p>: Lorem Ipsum</p>
-                        <p>: 50</p>
-                        <p>: French</p>
-                        <p>: French, Spanish, English</p>
-                        <p>: 2 Beightbridge, BN7 GB9, United kingdom</p>
-                        <p>: France, Spain, Germany</p>
-                    </div>
-                </div>
-                <button className="btn">Download Cv</button>
-            </div>
+  return (
+    <div className="ImageSection">
+      <div className="about-info">
+        <h4>
+          I am<span> Krsteski Ilija</span>
+        </h4>
+        <p className="about-text">
+          A dedicated self-taught web developer, focused mostly on FrontEnd, but
+          also familiar with BackEnd technologies.
+        </p>
+        <div className="about-details">
+          <div className="left-section">
+            <p>Full Name:</p>
+            <p>Location:</p>
+            <p>Nationality:</p>
+            <p>Languages:</p>
+          </div>
+          <div className="right-section">
+            <p> Krsteski Ilija</p>
+            <p> Berlin, Germany</p>
+            <p> Bulgarian, EU</p>
+            <p> English, Croatian, German, Macedonian, Bulgarian, Spanish</p>
+          </div>
         </div>
-    )
+      </div>
+    </div>
+  );
 }
 
 export default ImageSection;

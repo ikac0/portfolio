@@ -1,63 +1,76 @@
-.ContactItem{
-    width: 100%;
-    &:not(:last-child){
-        margin-bottom: 1rem;
-    }
-    .contact{
-        display: flex;
-        align-items: center;
-        background-color:#191D2B ;
-        padding: 3rem 0;
-        .right-items{
-            margin-left: 2rem;
-        }
-        img{
-            padding: 1rem;
-            border: 1px solid #2e344e;
-            margin-left: 2rem;
-            width: 16%;
-        }
-        .right-items{
-            h6{
-                font-size: 1.4rem;
-                font-weight: 500;
-            }
-        }
-    }
+.contact-form {
+  padding: 50px;
+  padding-left: 0;
+  caret-color: #2d7fff;
 }
 
-.ContactPage{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    margin-bottom: 6rem;
-    @media screen and (max-width: 1270px){
-        grid-template-columns: repeat(1, 1fr);
-        .map-sect{
-            width: 100%;
-            height: 50vh;
-            margin-bottom: 1rem;
-        }
-    }
-    .contact-sect{
-        width: 100%;
-    }
-}
-.map-sect{
-    width: 97%;
-    padding: 1rem;
-    background-color:#191D2B;
-    iframe{
-        width: 100%;
-        height: 100%;
-    }
+.ContactPage {
+  display: inline-block;
 }
 
-.contact-sect{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
+.container {
+  width: 50%;
+  margin: auto;
 }
 
-.title{
-    margin-bottom: 5rem;
+.form-contact {
+  width: 100%;
+}
+
+.form-contact-input {
+  width: 100%;
+  color: #10192a;
+  font-size: 18px;
+  border: 1px solid #e9e9e9;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 2px;
+  height: 45px;
+  margin-bottom: 20px;
+  border-left: 1px solid #ccc;
+  text-indent: 20px;
+  &:active {
+    background-color: white;
+  }
+}
+
+.form-contact-textarea {
+  width: 100%;
+  color: #10192a;
+  font-size: 18px;
+  background-color: white;
+  border: 1px solid #e9e9e9;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  height: 200px;
+  margin-bottom: 20px;
+  border-left: 1px solid #ccc;
+  text-indent: 20px;
+  padding-top: 16px;
+  padding-left: 0;
+  padding-right: 0;
+  font-family: "Arial", Times, serif;
+}
+
+.contact-form-button {
+  width: 100%;
+  color: white;
+  height: 45px;
+  cursor: pointer;
+  background-color: transparent;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  letter-spacing: 3px;
+  font-weight: 800;
+  border: 4px double #2d7fff;
+  color: #a4acc4;
+  font-size: 1.2rem;
+  transition: all 0.3s ease-in-out;
+  font-family: inherit;
+
+  &:hover {
+    color: white;
+    background-color: #2d7fff;
+    border: 2px solid white;
+  }
 }

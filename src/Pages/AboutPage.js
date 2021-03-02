@@ -1,47 +1,37 @@
-import React from 'react'
-import Tittle from '../Components/Tittle'
-import ImageSection from '../Components/ImageSection';
-import SkillsSection from '../Components/SkillsSection';
-import ServicesSection from '../Components/ServicesSection';
-import design from '../img/design.svg';
-import intelligence from '../img/intelligence.svg';
-import gamedev from '../img/game-dev.svg';
+import React from "react";
+import Title from "../Components/Title";
+import ImageSection from "../Components/ImageSection";
+import SkillsSection from "../Components/SkillsSection";
 
 function AboutPage() {
-    return (
-        <div className="AboutPage">
-            <Tittle title={'About Me'} span={'About Me'} />
-            <ImageSection />
-            <Tittle title={'My Skills'} span={'My Skills'} />
-            <div className="skillsContainer">
-                <SkillsSection skill={'Javascript'} progress={'60%'} width={'60%'} />
-                <SkillsSection skill={'Typescript'} progress={'30%'} width={'30%'} />
-                <SkillsSection skill={'React Js'} progress={'70%'} width={'70%'} />
-                <SkillsSection skill={'Node Js'} progress={'80%'} width={'80%'} />
-                <SkillsSection skill={'Python'} progress={'90%'} width={'90%'} />
-                <SkillsSection skill={'Lua'} progress={'40%'} width={'40%'} />
-                <SkillsSection skill={'Java'} progress={'80%'} width={'80%'} />
-                <SkillsSection skill={'Web Design'} progress={'25%'} width={'25%'} />
-                <SkillsSection skill={'UI/Ux Design'} progress={'76%'} width={'76%'} />
-            </div>
+  return (
+    <div className="AboutPage">
+      <Title title={"About Me"} span={"About Me"} />
+      <ImageSection />
 
-            <Tittle title={'Services'} span={'Services'} />
-            <div className="servives-container">
-                <ServicesSection image={design} title={'Web design'} 
-                text={'Lorem ipsum dolor sit amet consectetur adipisicing elit.'}
-                />
-                <ServicesSection image={intelligence} title={'Artificial Intelligence'} 
-                text={'Lorem ipsum dolor sit amet consectetur adipisicing elit.'}
-                />
-                <ServicesSection image={gamedev} title={'Game Development'} 
-                text={'Lorem ipsum dolor sit amet consectetur adipisicing elit.'}
-                />
+      <Title title={"My Skills"} span={"My Skills"} />
+      <div className="skillsContainer">
+        <SkillsSection skill={"HTML"} width={"90%"} />
+        <SkillsSection skill={"CSS"} width={"60%"} />
+        <SkillsSection skill={"JavaScript"} width={"90%"} />
+        <SkillsSection skill={"React.js"} width={"90%"} />
+        <SkillsSection skill={"Redux"} width={"60%"} />
+        <SkillsSection skill={"Firebase"} width={"90%"} />
+        <SkillsSection skill={"Node/Express.js/MongoDB"} width={"40%"} />
+        <SkillsSection skill={"SCSS/SASS"} width={"60%"} />
+      </div>
 
-                
-            </div>
-
-        </div>
-    )
+      <Title title={"TOOLS/TECHNOLOGIES"} />
+      <div className="skillsContainer">
+        <SkillsSection skill={"GIT / Version Control"} width={"60%"} />
+        <SkillsSection skill={"React Custom Hooks"} width={"70%"} />
+        <SkillsSection skill={"Styled Components"} width={"90%"} />
+        <SkillsSection skill={"Stripe"} width={"70%"} />
+        <SkillsSection skill={"ES5"} width={"70%"} />
+        <SkillsSection skill={"Authentication"} width={"70%"} />
+      </div>
+    </div>
+  );
 }
 
 export default AboutPage;
