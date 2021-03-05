@@ -15,48 +15,73 @@ function HomePage() {
           <span> Krsteski Ilija</span>
         </h1>
         <p className="h-sub-text">
-          * why were you waiting till 29 years to start coding ? * why germany
-          and now polska kurwa maç? * * where do you see yourself in 5 years? *
-          why did you choose us? * do you have any questions for us? * why web
-          development * how did you get here? * please tell me more about
-          yourself. * What are your ambitions for the future? * What is your
-          biggest weakness? -{" "}
-          <strong>
-            sometimes its hard to stay motivated during coding. at least the
-            first few months. so i made a 3 weeks break. . maybe the reason for
-            it was the pandemic, lack of social interaction, having no feedback
-            for my clean-code, lack of confidence. i was waiting for the very
-            last day to start applying for a job, knowing that i am running out
-            of money, external pressure, and i'm punishing myself with
-            restrictions.{" "}
-          </strong>
-          * What is your biggest strength? - logic, * What are you proud of? *
-          What are your biggest achievements so far? * A self-taught front end
-          web developer, heavily focused on React.js fhjksfhkshfksjdhfkhfkdj A
-          self-taught front end web developer, heavily A self-taught front end
-          web developer, heavily focused on React.js A self-taught front end web
-          developer, heavily focused on React.js fhjksfhkshfksjdhfkhfkdj A
-          self-taught front end web developer, heavily focused on React.js
-          fhjksfhkshfksjdhfkhfkdj A self-taught front end web developer, heavily
-          focused on React.js fhjksfhkshfksjdhfkhfkdj A self-taught front end
-          web developer, heavily focused on React.js fhjksfhkshfksjdhfkhfkdj
-          fhjksfhkshfksjdhfkhfkdj focused on React.js A self-taught front end
-          web developer, heavily focused on React.js A self-taught front end web
-          developer, heavily focused on React.js fhjksfhkshfksjdhfkhfkdj A
-          self-taught front end web developer, heavily focused on React.js
-          fhjksfhkshfksjdhfkhfkdj fhjksfhkshfksjdhfkhfkdj A self-taught front
-          end web developer, heavily focused on React.js A self-taught front end
-          web developer, heavily focused on React.js fhjksfhkshfksjdhfkhfkdj A
-          self-taught front end web developer, heavily focused on React.js
-          fhjksfhkshfksjdhfkhfkdj fhjksfhkshfksjdhfkhfkdj A self-taught front
-          end web developer, heavily focused on React.js A self-taught front end
-          web developer, heavily focused on React.js fhjksfhkshfksjdhfkhfkdj A
-          self-taught front end web developer, heavily focused on React.js
-          fhjksfhkshfksjdhfkhfkdj A self-taught front end web developer, heavily
-          focused on React.js fhjksfhkshfksjdhfkhfkdj A self-taught front end
-          web developer, heavily focused on React.js fhjksfhkshfksjdhfkhfkdj
-          fhjksfhkshfksjdhfkhfkdj fhjksfhkshfksjdhfkhfkdj
+          <p>
+            An ambitious front-end developer with high interest in modern
+            technologies, besides that an avid escape room enthusiast with a
+            passion for cooking.
+          </p>
+          <p>
+            I have worked as an Operations Manager for a hardware store for 3
+            years before deciding to leave my family business aside, since I
+            didn't find myself loving my current job. I have decided to move to
+            Germany in 2017 for new chanllenges and opportunities.
+          </p>
+          <p>
+            I feel that with my relocation I have broadened my horizons and
+            improved as a person. Berlin inspired me to start exploring what I
+            am good at. And in 2020, I have discovered my passion for web
+            development!
+          </p>
+          <p>
+            I am currently studying and constantly improving to become a great
+            front-end developer. Being a self-taught developer with no IT
+            academic background besides 800+ hours spent on Udemy, YouTube,
+            FreeCodeCamp exercises during the pandemic, has been the greatest
+            challenge in my life so far, and now I am more than motivated to
+            prove my worth in the tech-world. I have done several pet projects
+            to show my potential.
+          </p>
+          <p>
+            My general direction for the future is to finally start doing what I
+            love and can see myself doing for a lifetime, continiously learning
+            and improving my skills. Looking for a stable career path for myself
+            after joining an amazing international company.
+          </p>
+          <p>
+            Heavily focused on: Javascript, React.js, HTML, CSS.
+            <br />
+            Familiar with many other skills as well as you can see in the skills
+            section.
+            <br />
+            Core strengths: Always focused on the solution, instead of the
+            problem. Problem solver, high disciplined, pixel-perfectionist,
+            goal-oriented and analytical team player. I truly believe having
+            this mindset and dedication, any goal is reachable.
+          </p>
+          <p>
+            Hobbies: cooking , music, escape rooms, travelling, european
+            languages.
+            <br />
+            Personality type: INTJ
+          </p>
+          <br />
+          <h3>Basic info: </h3>
+          <br />
         </p>
+        <div className="skills-details">
+          <div className="left-section">
+            <p>Full Name:</p>
+            <p>Location:</p>
+            <p>Nationality:</p>
+            <p>Languages:</p>
+          </div>
+          <div className="right-section">
+            <p> Krsteski Ilija</p>
+            <p> Berlin, Germany</p>
+            <p> Bulgarian, EU</p>
+            <p> English, Croatian, German, Macedonian, Bulgarian, Spanish</p>
+          </div>
+        </div>
         <div className="icons">
           <a
             href="https://www.linkedin.com/in/ilija-krsteski-352b074a"

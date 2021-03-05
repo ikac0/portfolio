@@ -6,7 +6,7 @@ function CoursesPage() {
   return (
     <div>
       <div className="c-title">
-        <Title title={"Completed Courses"} span={"Completed Courses"} />
+        <Title title={"Completed Courses"} span={""} />
       </div>
       <div className="CoursesPage">
         {allCourses.map((x) => {

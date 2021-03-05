@@ -17,8 +17,8 @@ function Navbar() {
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink to="/about" exact activeClassName="active">
-                About
+              <NavLink to="/skills" exact activeClassName="active">
+                Skills
               </NavLink>
             </li>
             <li className="nav-item">

@@ -1,8 +1,9 @@
-import port1 from "../img/portImages/maya-1.jpg";
-import port2 from "../img/portImages/port1.jpg";
-import port3 from "../img/portImages/port2.jpg";
-import port4 from "../img/portImages/port3.jpg";
-import port5 from "../img/portImages/port5.jpg";
+import eCom from "../img/portImages/eCom.png";
+import netflix from "../img/portImages/netflix.png";
+import todoist from "../img/portImages/todoist.png";
+import amazon from "../img/portImages/amazon.png";
+import landing from "../img/portImages/landing.png";
+import meal from "../img/portImages/meal.png";
 
 const petProjects = [
   {
@@ -12,7 +13,7 @@ const petProjects = [
     link2: "https://github.com/ikac0/e-com",
     icon1: "VIEW",
     icon2: "CODE",
-    image: port1,
+    image: eCom,
     title: "E-commerce",
     description: "Fully functional e-commerce site",
   },
@@ -23,7 +24,7 @@ const petProjects = [
     link2: "https://github.com/ikac0/netflix",
     icon1: "VIEW",
     icon2: "CODE",
-    image: port2,
+    image: netflix,
     title: "Netflix Clone",
     description: "Cloned version of Netflix, with styled components",
   },
@@ -34,7 +35,7 @@ const petProjects = [
     link2: "https://github.com/ikac0/todoist",
     icon1: "VIEW",
     icon2: "CODE",
-    image: port4,
+    image: todoist,
     title: "Todoist App Clone",
     description: "Cloned version of the popular Todoist App",
   },
@@ -45,64 +46,31 @@ const petProjects = [
     link2: "https://github.com/ikac0/amazon-clone",
     icon1: "VIEW",
     icon2: "CODE",
-    image: port3,
+    image: amazon,
     title: "Amazon Clone",
     description: "Functional amazon based, e-commerce platform",
   },
   {
     id: 5,
     category: "JavaScript",
-    link1: "",
-    link2: "https://github.com/ikac0/budget-javascript",
+    link1: "https://ikac0.github.io/landing/",
+    link2: "https://github.com/ikac0/landing",
     icon1: "VIEW",
     icon2: "CODE",
-    image: port5,
-    title: "Vanilla JavaScript Budget Calculator",
-    description: "Expences tracker",
+    image: landing,
+    title: "JavaScript LandingPage",
+    description: "Clone of the popular chrome extention Momentum",
   },
   {
     id: 6,
-    category: "React.js",
-    link1: "",
-    link2: "https://github.com/ikac0/pwa-react",
-    icon1: "VIEW",
-    icon2: "CODE",
-    image: port5,
-    title: "Simplest React PWA Weather App",
-    description: "Very basic",
-  },
-  {
-    id: 7,
-    category: "kurac",
-    link1: "",
-    link2: "https://github.com/ikac0/budget-javascript",
-    icon1: "VIEW",
-    icon2: "CODE",
-    image: port5,
-    title: "Calculator",
-    description: "Expences tracker",
-  },
-  {
-    id: 8,
     category: "JavaScript",
-    link1: "",
-    link2: "https://github.com/ikac0/budget-javascript",
+    link1: "https://ikac0.github.io/meal-finder-vanilla-js/",
+    link2: "https://github.com/ikac0/meal-finder-vanilla-js",
     icon1: "VIEW",
     icon2: "CODE",
-    image: port5,
-    title: "Javascript MovieTheatar",
-    description: "Expences tracker",
-  },
-  {
-    id: 9,
-    category: "JavaScript",
-    link1: "",
-    link2: "https://github.com/ikac0/budget-javascript",
-    icon1: "VIEW",
-    icon2: "CODE",
-    image: port5,
-    title: "Vanilla JavaScript Lyrics finder",
-    description: "Expences tracker",
+    image: meal,
+    title: "JavaScript Meal finder",
+    description: "Vanilla JavaScript Meal finder using themealdb API",
   },
 ];
 

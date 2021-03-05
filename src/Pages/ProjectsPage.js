@@ -1,9 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import Categories from "../Components/Categories";
 import MenuItems from "../Components/MenuItems";
 import Title from "../Components/Title";
 import petProjects from "../Components/allProjects";
-import { useState } from "react";
 
 const allCategories = [
   "All",
