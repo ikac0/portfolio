@@ -5,7 +5,7 @@ function Title({ title, span }) {
     <div className="Title">
       <h3>
         {title}
-        <span className="faded-title"> {span}</span>
+        <span className="faded-title">{span}</span>
       </h3>
     </div>
   );

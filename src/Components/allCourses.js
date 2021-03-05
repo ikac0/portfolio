@@ -38,9 +38,7 @@ const courses = [
   },
   {
     id: 6,
-    image: "",
-    title: "Git: Become an Expert in Git & GitHub in 4 Hours",
-    link: "https://www.udemy.com/course/git-expert-4-hours/",
+    title: "...and many, many more...",
   },
 ];
 
