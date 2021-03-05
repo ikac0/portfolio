@@ -24,12 +24,12 @@ function HomePage() {
             I have worked as an Operations Manager for a hardware store for 3
             years before deciding to leave my family business aside, since I
             didn't find myself loving my current job. I have decided to move to
-            Germany in 2017 for new chanllenges and opportunities.
+            Germany in 2017 to look for new challenges and opportunities.
           </p>
           <p>
             I feel that with my relocation I have broadened my horizons and
             improved as a person. Berlin inspired me to start exploring what I
-            am good at. And in 2020, I have discovered my passion for web
+            would be best at. And in 2020, I have discovered my passion for web
             development!
           </p>
           <p>
@@ -43,7 +43,7 @@ function HomePage() {
           </p>
           <p>
             My general direction for the future is to finally start doing what I
-            love and can see myself doing for a lifetime, continiously learning
+            love and can see myself doing for a lifetime, continuously learning
             and improving my skills. Looking for a stable career path for myself
             after joining an amazing international company.
           </p>
@@ -53,13 +53,13 @@ function HomePage() {
             Familiar with many other skills as well as you can see in the skills
             section.
             <br />
-            Core strengths: Always focused on the solution, instead of the
-            problem. Problem solver, high disciplined, pixel-perfectionist,
-            goal-oriented and analytical team player. I truly believe having
-            this mindset and dedication, any goal is reachable.
+            Core strengths: I start thinking about my solutions with the end
+            goal in mind. Problem solver, high disciplined, pixel-perfectionist,
+            goal-oriented and analytical team player. I truly believe having a
+            mindset and dedication such as these, any goal is achievable.
           </p>
           <p>
-            Hobbies: cooking , music, escape rooms, travelling, european
+            Hobbies: cooking, music, escape rooms, travelling, european
             languages.
             <br />
             Personality type: INTJ
