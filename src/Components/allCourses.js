@@ -33,12 +33,13 @@ const courses = [
     id: 5,
     image:
       "https://udemy-certificate.s3.amazonaws.com/image/UC-7cb2350f-b9a1-4a6e-addd-5402867d5427.jpg",
-    title: "JavaScript Understanding the Weird Parts",
+    // eslint-disable-next-line no-script-url
+    title: "JavaScript: Understanding the Weird Parts",
     link: "https://www.udemy.com/course/understand-javascript/",
   },
   {
     id: 6,
-    title: "...and many, many more...",
+    title: "...and many other minor courses...",
   },
 ];
 

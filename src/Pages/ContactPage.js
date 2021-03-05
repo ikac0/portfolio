@@ -29,7 +29,10 @@ function ContactPage() {
         <Title title={"Contact"} span={"Contact"} />
       </div>
       <div className="ContactPage">
-        <h2>Feel free to drop me a message if you feel like it!</h2>
+        <h2 className="feel-free">
+          Feel free to drop me a message if you feel like it!
+        </h2>
+
         <form className="contact-form" onSubmit={sendEmail}>
           <input
             type="text"
